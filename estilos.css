@@ -1,0 +1,41 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif /* Adicionando uma fonte padrão */
+}
+
+.justificado {
+    text-align: justify;
+}
+
+nav {
+    margin-bottom: 20px;
+    text-align: center; /* Movendo para o CSS */
+}
+
+a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline; /* Adicionando um efeito ao passar o mouse */
+}
+
+.center {
+    text-align: center; /*Centralizando o conteúdo */
+}
+
+.foto-perfil {
+    width: 10%;
+    height: 70%;
+    border-radius: 10%; /* Bordas arredondadas na imagem */
+}
+
+.contato {
+    border: 2px solid #0077B5; /* Cor da borda (azul do LinkedIn) */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    display: inline-block; /* Para que a borda se ajuste ao conteúdo */
+    margin: 10px 0; /* Margem superior e inferior */
+    text-align: center;
+}
